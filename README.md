@@ -52,7 +52,7 @@ Visit [http://localhost:3000](http://localhost:3000) to view your portfolio.
 
 ## 🌐 Live Demo
 
-Check out the live site: [imabhishek.site](https://www.2rust.dev)
+Check out the live site: [2rust.dev](https://www.2rust.dev)
 
 ## 📄 License
 
