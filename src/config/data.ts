@@ -24,36 +24,36 @@ export const socialLinks = [
     id: 5,
     priority: 1,
     title: "GitHub",
-    url: "https://github.com/Abhishek1350",
+    url: "https://github.com/2-rust",
   },
   {
     id: 6,
     priority: 2,
-    title: "LinkedIn",
-    url: "https://www.linkedin.com/in/abhishek-bhardwaj-76b9a721b/",
+    title: "Twitter",
+    url: "https://twitter.com/t_rustdev_",
   },
   {
     id: 7,
     priority: 3,
-    title: "Twitter",
-    url: "https://twitter.com/Abhishek1350",
+    title: "Telegram",
+    url: "https://t.me/rust_devv",
   },
-  {
-    id: 8,
-    priority: 4,
-    title: "Instagram",
-    url: "https://www.instagram.com/imabhishek.dev/",
-  },
+  // {
+  //   id: 8,
+  //   priority: 4,
+  //   title: "Instagram",
+  //   url: "https://www.instagram.com/imabhishek.dev/",
+  // },
 ];
 
 export const personalInfo = {
-  name: "Abhishek Bhardwaj",
-  title: "Software Developer | React, Next.js, Nest.js",
-  avatar: "/images/about/abhishek-bhardwaj.webp",
-  email: "hello@imabhishek.site",
-  location: "Himachal Pradesh, India",
+  name: "Dillon Marszalek",
+  title: "Blockchain & Full Stack Developer",
+  avatar: "/images/about/dillon.webp",
+  email: "dillonking130@gmail.com",
+  location: "Ontario, Canada",
   description:
-    "Self-taught Software Developer from Himachal Pradesh, India, crafting scalable and high-performance websites and applications. Skilled in React, Next.js, and NestJS, I started my journey during the lockdown and worked my way from complete beginner to building custom software solutions from scratch.",
+    "Passionate and seasoned solution architect and software engineer with a robust expertise in web and blockchain technologies. Over the past eight years, I've effectively leveraged technology to craft innovative digital solutions. I thrive on embracing new challenges and navigating through obstacles to deliver impactful results. Excited about pushing the boundaries of technology and contributing to the ever-evolving landscape of digital solutions.",
 };
 
 export const heroSection = {

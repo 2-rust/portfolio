@@ -33,9 +33,9 @@ export default function Portfolio() {
         <Projects />
       </FadeInUp>
 
-      <FadeInUp delay={0.8}>
+      {/* <FadeInUp delay={0.8}>
         <Certifications />
-      </FadeInUp>
+      </FadeInUp> */}
 
       <FadeInUp delay={1.0}>
         <Testimonials />
