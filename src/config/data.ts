@@ -17,6 +17,13 @@ import {
   SiSass,
   SiBootstrap,
   SiContentful,
+  SiRust,
+  SiSolidity,
+  SiPython,
+  SiCplusplus,
+  SiDocker,
+  SiVite,
+  SiGit
 } from "react-icons/si";
 
 export const socialLinks = [
@@ -49,7 +56,7 @@ export const socialLinks = [
 export const personalInfo = {
   name: "Dillon Marszalek",
   title: "Blockchain & Full Stack Developer",
-  avatar: "/images/about/dillon.webp",
+  avatar: "/images/about/logo.png",
   email: "dillonking130@gmail.com",
   location: "Ontario, Canada",
   description:
@@ -63,38 +70,85 @@ export const heroSection = {
 
 export const workExperience = [
   {
-    company: "FAB Web Studio",
-    position: "ReactJS Developer",
-    period: "Jan 2024 - Present",
+    company: "Freelancer",
+    position: "Trading Bot Developer",
+    period: "Feb 2024 - Present",
     shortDesc:
-      "Started as a ReactJS developer and gradually expanded into full-stack responsibilities, including backend development and AI integration. Working both independently and within teams to deliver scalable web applications. My full responsibilities include:",
+      "",
     bulletPoints: [
-      "Gathering client requirements and delivering tailored frontend and backend solutions",
-      "Building and deploying custom Shopify apps using the Remix framework",
-      "Building dynamic frontends with React and Next.js",
-      "Integrating headless CMS platforms such as Strapi, Sanity, Drupal, and WordPress",
-      "Implementing backend systems using Node.js and NestJS with PostgreSQL",
+      "Created bot systems for blockchain transaction automation, including trading bots(Bundler, Volume, Sniper, Copy Trading), arbitrage, and liquidations on Solana Network(Pump.fun, Raydium and Meteora)",
+      "Also Created Bundler and Volume Booster on Four.meme(BNB)",
+      "Developed on-chain trading business logic and implemented it into a Node.js back end paired with a MySQL database",
+      "Created API and WebSocket endpoints for live data feeds and direct connection to the front end",
+      "Expanded the system for commercial use, enabling multiple users to access it simultaneously",
       "Integrating AI tools into internal projects to enhance automation and workflows",
-      "Managing deployments on VPS and optimizing performance with Cloudflare and GraphQL",
+      "Utilized various decentralized finance liquidity pool protocols such as Jito and Uniswap",
     ],
   },
   {
-    company: "Edvolve",
-    position: "Software Engineer",
-    period: "Aug 2022 - Jan 2024",
+    company: "NFheroes, LLC",
+    position: "DeFi Engineer",
+    period: "May 2023 - Feb 2024",
     shortDesc:
-      "Joined as an intern and quickly transitioned into a full-time Software Engineer role. Worked closely with the founding team to build and launch key products from the ground up. My full responsibilities included:",
+      "",
     bulletPoints: [
-      "Built and launched two full-scale web applications using React",
-      "Worked directly with the founders to define product roadmap and strategy",
-      "Led frontend development and collaborated across teams in an agile environment",
-      "Contributed to funding pitches by preparing live product demos and prototypes",
+      "Built a decentralized finance blockchain app that automatically indexes and tracks tokens on the blockchain with support for BNB Chain, Ethereum, and Fantom",
+      " Built the back-end of the application, processing blockchain data to track price activity and trade volume of tokens in real-time. Enabled advanced aggregation and analytics to provide in-depth, instantaneous tracking",
+      "Designed and implemented microservice architecture on AWS Elastic container service and AWS RDS (Postgres DB), processing months of blockchain data. Microservices were written in TypeScript using Nest.js",
+      "Designed web app using Figma and worked with front-end engineer to build React front-end for the app hosted on Vercel (Next.js). Also did a bit of front-end development myself",
+      "Built an automated CI/CD pipeline using GitHub and GitHub Actions to automatically deploy the back end and website",
+      "Wrote smart contracts to analyze on-chain data and look for potential scam tokens",
+    ],
+  },
+  {
+    company: "Moduluc",
+    position: "Senior Solana Smart Contract Developer",
+    period: "",
+    shortDesc:
+      "March 2022 - May 2023",
+    bulletPoints: [
+      "Developed and deployed new Solana programs to enhance the company’s blockchain ecosystem",
+      "Collaborated with internal teams to design, build, and optimize Solana-based applications",
+      "Led the development team, overseeing technical implementation and ensuring high-quality code delivery",
+      "Directed end-to-end development of Solana smart contracts with Anchor, improving performance and reliability",
+    ],
+  },
+  {
+    company: "MintySwap, PTE LTD",
+    position: "Evm Smart Contracts Developer",
+    period: "",
+    shortDesc:
+      "",
+    bulletPoints: [
+      "Created and deployed a staking contract for the platform token",
+      "Created a demo DApp for the staking contract",
+      "Implemented and deployed the graph for the staking contract tracking all events and allowing more advanced queries",
+    ],
+  },
+  {
+    company: "Brand View",
+    position: "Full Stack Developer",
+    period: "Nov 2018 - May 2020",
+    shortDesc:
+      "",
+    bulletPoints: [
+      "Adapted the back end to switch from MySQL to MongoDB, enhancing the scalability and performance of the database system better to handle the increasing volume of user data and transactions",
+      "Designed and implemented a robust user authentication system, ensuring secure access and protecting sensitive user information",
+      "Developed a seamless payment processing system, integrating various payment gateways to facilitate smooth and secure transactions",
+      "Delivered a scalable architecture that supported future expansion and growth, allowing the platform to adapt to increasing user demands and new feature integrations",
+      "Worked closely with cross-functional teams to design, develop, and deploy critical features, fostering a collaborative environment that contributed to the successful delivery of the project",
     ],
   },
 ];
 
 export const techStack = [
   // === FRONTEND ===
+  { name: "Rust", icon: SiRust, color: "text-white", type: "Frontend" },
+  { name: "Solidity", icon: SiSolidity, color: "text-teal-300", type: "Frontend" },
+  { name: "Python", icon: SiPython, color: "text-sky-400", type: "Frontend" },
+  { name: "C++", icon: SiCplusplus, color: "text-purple-300", type: "Frontend" },
+  { name: "Docker", icon: SiDocker, color: "text-gray-600", type: "Frontend" },
+  { name: "Vite", icon: SiVite, color: "text-pink-500", type: "Frontend" },
   { name: "Next.js", icon: SiNextdotjs, color: "text-white", type: "Frontend" },
   { name: "React", icon: FaReact, color: "text-blue-400", type: "Frontend" },
   { name: "Remix", icon: SiRemix, color: "text-indigo-500", type: "Frontend" },
@@ -184,24 +238,115 @@ export const techStack = [
 
 export const projects = [
   {
-    title: "FAB Web Studio",
+    title: "Critters Quest ",
     description:
-      "Redesigned and rebuilt FAB Web Studio’s outdated Drupal website into a sleek, modern, and high-performance platform using Next.js, TypeScript, Strapi, and Tailwind CSS. I handled everything independently, from UI/UX design and frontend development to backend setup, CMS integration, and deployment. The site features a fully dynamic CMS, SEO-optimized architecture, blazing-fast performance, and an AI-powered chatbot that answers intelligently based on site content.",
-    image: "/images/projects/fabwebstudio.webp",
-    liveUrl: "https://fabwebstudio.com",
-    techStack: techStack.filter((item) =>
-      ["Next.js", "Strapi", "TypeScript", "Tailwind"].includes(item.name)
-    ),
+      "This project is a blockchain-based gaming and collectible platform built on Solana. Users can own, stake, and trade NFTs (digital collectibles), and possibly earn rewards through gameplay or participation.",
+    image: "/images/projects/critters.quest.png",
+    liveUrl: "https://critters.quest/",
+    githubUrl: "https://github.com/2-rust/critters-quest",
+    techStack: ["Next.js", "Rust", "TypeScript", "Tailwind"]
+    // techStack: techStack.filter((item) =>
+    //   ["Next.js", "Rust", "TypeScript", "Tailwind"].includes(item.name)
+    // ),
   },
   {
-    title: "SnapLoom",
+    title: "Nutmarket ",
     description:
-      "A free AI-powered image editor with tools for background removal, recoloring, aspect ratio resizing, and image generation.",
-    image: "/images/projects/snaploom.webp",
-    liveUrl: "https://www.snaploom.space",
-    techStack: techStack.filter((item) =>
-      ["Next.js", "TypeScript", "Tailwind"].includes(item.name)
-    ),
+      "Nut.market is a crypto / DeFi marketplace platform where users can list, trade, or interact with digital assets (i.e. tokens / NFTs). I contributed by building the frontend with Next.js and Tailwind, integrating smart contract calls via Web3.js / ethers, and ensuring smooth UX for listing & asset browsing",
+    image: "/images/projects/nutmarket.png",
+    liveUrl: "https://nut.market/",
+    githubUrl: "https://github.com/2-rust/nut.market-marketplace",
+    techStack: ["Next.js", "Rust", "Anchor", "Web3.js", "TypeScript", "Tailwind"]
+  },
+  {
+    title: "Floppylabs ",
+    description:
+      "FloppyLabs is a “staking-as-a-service” platform on Solana. It enables NFT projects to deploy staking functionalities in minutes — handling staking, escrow, rewards, analytics, and UI — with minimal fuss. They monetize via small transaction fees (e.g. 0.01 SOL per stake/unstake).",
+    image: "/images/projects/floppylabs.png",
+    liveUrl: "https://floppylabs.io/",
+    githubUrl: "https://github.com/2-rust/floppylabs-nft-staking",
+    techStack: ["Next.js", "Rust", "TypeScript", "Tailwind", "Anchor", "Web3.js"]
+  },
+  {
+    title: "Arcus  ",
+    description:
+      "Arcus is an institutional-grade Bitcoin yield and credit infrastructure platform. With MPC-based custody, permissioned access, and an API for lending/credit services, it enables institutions to safely deploy Bitcoin capital and generate yield.",
+    image: "/images/projects/arcus.png",
+    liveUrl: "https://arcusbtc.com/",
+    githubUrl: "https://github.com/ArcusBTC/arcus-app",
+    techStack: ["React.js", "Bitcoin.js", "TypeScript", "Tailwind", "Node.js"]
+  },
+  {
+    title: "InternetJpegs ",
+    description:
+      "InternetJPEG is a digital art / Ordinal platform focusing on JPEG-based collectibles. It provides tools for minting, showcasing, and trading visual digital assets — blending internet culture with crypto art.",
+    image: "/images/projects/internetjpeg.png",
+    liveUrl: "https://internetjpeg.com/",
+    githubUrl: "https://github.com/internetjpegs-com/Frontend",
+    techStack: ["Vite.js", "Bitcoin.js", "TypeScript", "Tailwind", "Nest.js"]
+  },
+  {
+    title: "BMP BRC20",
+    description:
+      "Airdrop platform for BRC20 tokens to Taproot addresses. Supports Unisat, Leader, and XVerse wallets. Utilized `PSBT` & `bitcoinjs` for deploying & minting tokens.",
+    image: "/images/projects/brc20.png",
+    liveUrl: "https://bmpbrc.com/",
+    githubUrl: "https://github.com/2-rust/BRC20-withdraw-Backend",
+    techStack: ["React.js", "Bitcoin.js", "TypeScript", "Tailwind", "Node.js"]
+  },
+  {
+    title: "HydraSwap",
+    description:
+      "Cross-chain DEX with Hydra Market Maker (HMM) smart pricing algorithm. Concentrated liquidity for better LP rewards & impermanent loss reduction.",
+    image: "/images/projects/hydraswap.png",
+    liveUrl: "https://hydraswap.io/",
+    githubUrl: "https://github.com/2-rust/hydra-swap-HMM-dex",
+    techStack: ["React", "Rust", "TypeScript", "Tailwind", "Anchor"]
+  },
+  {
+    title: "DigiMonkz",
+    description:
+      "Web3 NFT staking platform where users mint GEN111/GEN2 NFTs. Holders earn artifacts as rewards from staking.",
+    image: "/images/projects/dizmonkz.jpg",
+    liveUrl: "https://digimonkz.com/",
+    githubUrl: "https://github.com/2-rust/DigiMonkz-Staking",
+    techStack: ["React", "Solidity", "TypeScript", "Tailwind"]
+  },
+  {
+    title: "Playzelo",
+    description:
+      "Deployed on Bitcoin, Ethereum, Binance, and Solana. Includes Scissors, Turtlerace, Mines, Dice, Plinko, Slot, Crash games. Supports native tokens & USDT, USDC for betting.",
+    image: "/images/projects/playzelo.png",
+    liveUrl: "https://playzelo.xyz/",
+    githubUrl: "https://github.com/2-rust/scissors/tree/master/backend",
+    techStack: ["Next.js", "Rust", "TypeScript", "Tailwind", "Solidity"]
+  },
+  {
+    title: "Seek Syndicate",
+    description:
+      "P2E Game with SPL token rewards. Built Smart Contracts using Anchor (Rust) & Next.js for frontend.",
+    image: "/images/projects/seek.jpg",
+    liveUrl: "https://www.seekersyndicate.com/",
+    githubUrl: "https://github.com/2-rust/SPLFaucetSmartContract",
+    techStack: ["Vite.js", "Rust", "TypeScript", "Tailwind"]
+  },
+  {
+    title: "Yieldz Lending",
+    description:
+      "DeFi Lending Protocol offering real-yield mechanisms for investors. First multi-layered real-yield ecosystem providing stable passive income.",
+    image: "/images/projects/yy.png",
+    liveUrl: "https://yieldzprotocol.com/",
+    githubUrl: "https://github.com/2-rust/360-Defi-SmartContract",
+    techStack: ["React", "Solidity", "TypeScript", "Tailwind"]
+  },
+  {
+    title: "Nyx Cipher",
+    description:
+      "Developing AI-driven blockchain agents to automate financial and social intelligence on Ethereum(Base) & Solana. Integrating smart contracts with AI processing to optimize blockchain interactions. Cut research time 90%, amplify productivity by 10x. Power smarter investment decisions..",
+    image: "/images/projects/nyx.png",
+    liveUrl: "https://nyxcipher.ai/",
+    githubUrl: "https://github.com/2-rust/Nyx-Cipher-Agent",
+    techStack: ["Next.js", "LLM", "TypeScript", "Tailwind", "Web3.js", "Birdeye"]
   },
   {
     title: "Free Games Hub",
@@ -209,30 +354,8 @@ export const projects = [
       "A treasure trove of free PC games and browser-based delights. Discover thrilling titles ready for download and instant play.",
     image: "/images/projects/free-games-hub.webp",
     liveUrl: "https://www.freegameshub.xyz",
-    githubUrl: "https://github.com/Abhishek1350/FreeGamesHub",
-    techStack: techStack.filter((item) =>
-      ["Next.js", "TypeScript", "Tailwind"].includes(item.name)
-    ),
-  },
-  {
-    title: "CoinEcho",
-    description:
-      "Get AI insights and stay ahead in the fast-moving world of digital assets with real-time cryptocurrency updates and analysis.",
-    image: "/images/projects/coin-echo.webp",
-    liveUrl: "https://coinecho.pages.dev",
-    techStack: techStack.filter((item) =>
-      ["React", "TypeScript", "Supabase"].includes(item.name)
-    ),
-  },
-  {
-    title: "FreeAIHub",
-    description:
-      "Discover a diverse range of AI tools for Text-to-Image, Automatic Speech Recognition, and more, all available at no cost.",
-    image: "/images/projects/free-ai-hub.webp",
-    liveUrl: "https://www.freeaihub.cloud/",
-    techStack: techStack.filter((item) =>
-      ["Next.js", "TypeScript"].includes(item.name)
-    ),
+    githubUrl: "https://github.com/2-rust/FreeGamesHub",
+    techStack: ["Next.js", "TypeScript", "Tailwind"]
   },
 ];
 
@@ -298,21 +421,21 @@ export const certifications = [
 
 export const testimonials = [
   {
-    name: "Vikshak P",
-    company: "Edvolve",
-    linkedIn: "https://www.linkedin.com/in/vikshak/",
-    position: "Cofounder",
-    avatar: "/images/testimonials/vikshak.webp",
+    name: "Kevin",
+    company: "internetjpeg.com",
+    linkedIn: "",
+    position: "Founder",
+    avatar: "/images/testimonials/Kevin.png",
     testimonial:
-      "Abhishek worked with us and he was quite the problem solver. His ability to learn quickly and eagerness to learn new things was super helpful since we were a high velocity team and expected quick results. Would happily work with him again to develop good products, and recommend him to other employers looking for a fast learner in your team!",
+      "Dillon worked with us and he was quite the problem solver. His ability to learn quickly and eagerness to learn new things was super helpful since we were a high velocity team and expected quick results. Would happily work with him again to develop good products, and recommend him to other employers looking for a fast learner in your team!",
   },
   {
-    name: "Shwetank Singh",
-    company: "Edvolve",
-    linkedIn: "https://www.linkedin.com/in/singhshwetank/",
-    position: "Technical Lead",
-    avatar: "/images/testimonials/shwetank.webp",
+    name: "Periwinkle",
+    company: "CTO",
+    linkedIn: "",
+    position: "glittrfi",
+    avatar: "/images/testimonials/Periwinkle.png",
     testimonial:
-      "Abhishek is a hardworking, driven and dedicated person. He will be an asset wherever he goes.",
+      "Dillon is a hardworking, driven and dedicated person. He will be an asset wherever he goes.",
   },
 ];

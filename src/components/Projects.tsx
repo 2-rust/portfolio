@@ -59,13 +59,14 @@ export function Projects() {
               />
             </div>
             <div className="p-6">
-              <div className="flex  items-center justify-between mb-3">
+              <div className="flex  items-center justify-between">
                 <h3 className="text-xl font-bold text-white">
                   {project.title}
                 </h3>
-                <div className="flex items-center gap-2">
+              </div>
+              <div className="flex items-center gap-2 mb-2">
                   {project.techStack.map((tech, techIndex) => {
-                    const Icon = tech.icon;
+                    const Icon = tech;
                     return (
                       <motion.div
                         key={techIndex}
@@ -78,17 +79,17 @@ export function Projects() {
                         }}
                         viewport={{ once: true }}
                       >
-                        <Icon className={`w-6 h-6 ${tech.color}`} />
+                        {/* <Icon className={`w-6 h-6 ${tech.color}`} /> */}
+                        <p className="text-teal-300 text-sm">{Icon}</p>
                       </motion.div>
                     );
                   })}
                 </div>
-              </div>
               <p className="text-gray-300 mb-4 leading-relaxed line-clamp-3">
                 {project.description}
               </p>
 
-              <div className="flex items-center gap-4">
+              <div className="flex items-center justify-between gap-4">
                 <motion.a
                   whileHover={{ scale: 1.02, x: 2 }}
                   whileTap={{ scale: 0.98 }}

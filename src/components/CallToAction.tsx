@@ -19,7 +19,7 @@ export function CallToAction() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
         viewport={{ once: true }}
-        className="mb-12"
+        className="mb-12 p-6"
       >
         <div className="flex items-center justify-center gap-4 mb-4">
           <motion.div

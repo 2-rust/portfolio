@@ -39,8 +39,8 @@ export function MySetup() {
         />
       </motion.div>
 
-      <div className="grid lg:grid-cols-2 gap-12 items-start">
-        <motion.div
+      <div className="grid lg:grid-cols-1 gap-12 items-start">
+        {/* <motion.div
           initial={{ opacity: 0, x: -10 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -73,7 +73,7 @@ export function MySetup() {
               className="w-full h-auto rounded-sm object-cover hover:scale-102 transition-transform duration-700 ease-out"
             />
           </motion.a>
-        </motion.div>
+        </motion.div> */}
 
         <motion.div
           initial={{ opacity: 0, x: 10 }}
@@ -90,7 +90,7 @@ export function MySetup() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             {setupSpecs.map((spec, index) => {
               const IconComponent = spec.icon;
               return (

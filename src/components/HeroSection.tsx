@@ -93,7 +93,7 @@ export function HeroSection() {
           >
             <a
               className="flex items-center border border-blue-700/50 text-blue-300 hover:bg-blue-900/30 transition-all duration-300 py-2 px-4 rounded-sm"
-              href={`mailto:${heroSection.personalInfo.email}`}
+              href={"https://calendly.com/dillonking130/30min"} target="_blank"
             >
               <FiCalendar className="w-4 h-4 mr-2" />
               <span>Schedule a call</span>
