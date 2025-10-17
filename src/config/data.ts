@@ -76,13 +76,13 @@ export const workExperience = [
     shortDesc:
       "",
     bulletPoints: [
-      "Created bot systems for blockchain transaction automation, including trading bots(Bundler, Volume, Sniper, Copy Trading), arbitrage, and liquidations on Solana Network(Pump.fun, Raydium and Meteora)",
-      "Also Created Bundler and Volume Booster on Four.meme(BNB)",
+      "Created bot systems for blockchain transaction automation, including trading bots(*Bundler, Volume, Sniper, Copy Trading*), *arbitrage*, and *liquidations* on *Solana* Network(Pump.fun, Raydium and Meteora)",
+      "Also Created *Bundler* and *Volume* Booster on *Four.meme(BNB)*",
       "Developed on-chain trading business logic and implemented it into a Node.js back end paired with a MySQL database",
       "Created API and WebSocket endpoints for live data feeds and direct connection to the front end",
       "Expanded the system for commercial use, enabling multiple users to access it simultaneously",
       "Integrating AI tools into internal projects to enhance automation and workflows",
-      "Utilized various decentralized finance liquidity pool protocols such as Jito and Uniswap",
+      "Utilized various decentralized finance *liquidity pool protocols* such as *Jito* and *Uniswap*",
     ],
   },
   {
@@ -92,8 +92,8 @@ export const workExperience = [
     shortDesc:
       "",
     bulletPoints: [
-      "Built a decentralized finance blockchain app that automatically indexes and tracks tokens on the blockchain with support for BNB Chain, Ethereum, and Fantom",
-      " Built the back-end of the application, processing blockchain data to track price activity and trade volume of tokens in real-time. Enabled advanced aggregation and analytics to provide in-depth, instantaneous tracking",
+      "Built a *decentralized finance blockchain app* that automatically indexes and tracks tokens on the blockchain with support for *BNB Chain, Ethereum, and Fantom*",
+      "Built the back-end of the application, processing blockchain data to track price activity and trade volume of tokens in real-time. Enabled advanced aggregation and analytics to provide in-depth, instantaneous tracking",
       "Designed and implemented microservice architecture on AWS Elastic container service and AWS RDS (Postgres DB), processing months of blockchain data. Microservices were written in TypeScript using Nest.js",
       "Designed web app using Figma and worked with front-end engineer to build React front-end for the app hosted on Vercel (Next.js). Also did a bit of front-end development myself",
       "Built an automated CI/CD pipeline using GitHub and GitHub Actions to automatically deploy the back end and website",
@@ -107,20 +107,20 @@ export const workExperience = [
     shortDesc:
       "March 2022 - May 2023",
     bulletPoints: [
-      "Developed and deployed new Solana programs to enhance the company’s blockchain ecosystem",
+      "Developed and deployed new *Solana* programs to enhance the company’s blockchain ecosystem",
       "Collaborated with internal teams to design, build, and optimize Solana-based applications",
       "Led the development team, overseeing technical implementation and ensuring high-quality code delivery",
-      "Directed end-to-end development of Solana smart contracts with Anchor, improving performance and reliability",
+      "Directed end-to-end development of *Solana smart contracts* with *Anchor*, improving performance and reliability",
     ],
   },
   {
     company: "MintySwap, PTE LTD",
-    position: "Evm Smart Contracts Developer",
+    position: "EVM Smart Contracts Developer",
     period: "",
     shortDesc:
       "",
     bulletPoints: [
-      "Created and deployed a staking contract for the platform token",
+      "Created and deployed a *staking contract* for the platform token",
       "Created a demo DApp for the staking contract",
       "Implemented and deployed the graph for the staking contract tracking all events and allowing more advanced queries",
     ],
@@ -132,7 +132,7 @@ export const workExperience = [
     shortDesc:
       "",
     bulletPoints: [
-      "Adapted the back end to switch from MySQL to MongoDB, enhancing the scalability and performance of the database system better to handle the increasing volume of user data and transactions",
+      "Adapted the back end to switch from *MySQL to MongoDB*, enhancing the *scalability* and *performance* of the database system better to handle the increasing volume of user data and transactions",
       "Designed and implemented a robust user authentication system, ensuring secure access and protecting sensitive user information",
       "Developed a seamless payment processing system, integrating various payment gateways to facilitate smooth and secure transactions",
       "Delivered a scalable architecture that supported future expansion and growth, allowing the platform to adapt to increasing user demands and new feature integrations",
@@ -240,7 +240,7 @@ export const projects = [
   {
     title: "Critters Quest ",
     description:
-      "This project is a blockchain-based gaming and collectible platform built on Solana. Users can own, stake, and trade NFTs (digital collectibles), and possibly earn rewards through gameplay or participation.",
+      "This project is a blockchain-based gaming and collectible platform built on *Solana*. Users can own, *stake*, and *trade* NFTs (digital collectibles), and possibly earn rewards through gameplay or participation.",
     image: "/images/projects/critters.quest.png",
     liveUrl: "https://critters.quest/",
     githubUrl: "https://github.com/2-rust/critters-quest",
@@ -252,7 +252,7 @@ export const projects = [
   {
     title: "Nutmarket ",
     description:
-      "Nut.market is a crypto / DeFi marketplace platform where users can list, trade, or interact with digital assets (i.e. tokens / NFTs). I contributed by building the frontend with Next.js and Tailwind, integrating smart contract calls via Web3.js / ethers, and ensuring smooth UX for listing & asset browsing",
+      "Nut.market is a *crypto / DeFi marketplace platform* where users can list, trade, or interact with digital assets (i.e. tokens / NFTs). I contributed by building the frontend with Next.js and Tailwind, integrating smart contract calls via Web3.js / ethers, and ensuring smooth UX for listing & asset browsing",
     image: "/images/projects/nutmarket.png",
     liveUrl: "https://nut.market/",
     githubUrl: "https://github.com/2-rust/nut.market-marketplace",
@@ -261,7 +261,7 @@ export const projects = [
   {
     title: "Floppylabs ",
     description:
-      "FloppyLabs is a “staking-as-a-service” platform on Solana. It enables NFT projects to deploy staking functionalities in minutes — handling staking, escrow, rewards, analytics, and UI — with minimal fuss. They monetize via small transaction fees (e.g. 0.01 SOL per stake/unstake).",
+      "FloppyLabs is a *non custodial staking* platform on *Solana*. It enables NFT projects to deploy staking functionalities in minutes — handling staking, escrow, rewards, analytics, and UI — with minimal fuss. They monetize via small transaction fees (e.g. 0.01 SOL per stake/unstake).",
     image: "/images/projects/floppylabs.png",
     liveUrl: "https://floppylabs.io/",
     githubUrl: "https://github.com/2-rust/floppylabs-nft-staking",
@@ -270,7 +270,7 @@ export const projects = [
   {
     title: "Arcus  ",
     description:
-      "Arcus is an institutional-grade Bitcoin yield and credit infrastructure platform. With MPC-based custody, permissioned access, and an API for lending/credit services, it enables institutions to safely deploy Bitcoin capital and generate yield.",
+      "Arcus is an *institutional-grade Bitcoin yield, lending protocal and credit infrastructure* platform. With MPC-based custody, permissioned access, and an API for lending/credit services, it enables institutions to safely deploy Bitcoin capital and generate yield.",
     image: "/images/projects/arcus.png",
     liveUrl: "https://arcusbtc.com/",
     githubUrl: "https://github.com/ArcusBTC/arcus-app",
@@ -279,7 +279,7 @@ export const projects = [
   {
     title: "InternetJpegs ",
     description:
-      "InternetJPEG is a digital art / Ordinal platform focusing on JPEG-based collectibles. It provides tools for minting, showcasing, and trading visual digital assets — blending internet culture with crypto art.",
+      "InternetJPEG is a *digital art / Ordinal swap and trading* platform focusing on JPEG-based collectibles. It provides tools for minting, showcasing, and trading visual digital assets — blending internet culture with crypto art.",
     image: "/images/projects/internetjpeg.png",
     liveUrl: "https://internetjpeg.com/",
     githubUrl: "https://github.com/internetjpegs-com/Frontend",
@@ -288,7 +288,7 @@ export const projects = [
   {
     title: "BMP BRC20",
     description:
-      "Airdrop platform for BRC20 tokens to Taproot addresses. Supports Unisat, Leader, and XVerse wallets. Utilized `PSBT` & `bitcoinjs` for deploying & minting tokens.",
+      "Airdrop platform *to airdrop BRC20 tokens to Taproot addresses*. Supports Unisat, Leader, and XVerse wallets. Utilized `PSBT` & `bitcoinjs` for deploying & minting tokens.",
     image: "/images/projects/brc20.png",
     liveUrl: "https://bmpbrc.com/",
     githubUrl: "https://github.com/2-rust/BRC20-withdraw-Backend",
@@ -297,7 +297,7 @@ export const projects = [
   {
     title: "HydraSwap",
     description:
-      "Cross-chain DEX with Hydra Market Maker (HMM) smart pricing algorithm. Concentrated liquidity for better LP rewards & impermanent loss reduction.",
+      "*Cross-chain DEX with Hydra Market Maker* (HMM) smart pricing algorithm. Concentrated liquidity for better LP rewards & impermanent loss reduction.",
     image: "/images/projects/hydraswap.png",
     liveUrl: "https://hydraswap.io/",
     githubUrl: "https://github.com/2-rust/hydra-swap-HMM-dex",
@@ -306,7 +306,7 @@ export const projects = [
   {
     title: "DigiMonkz",
     description:
-      "Web3 NFT staking platform where users mint GEN111/GEN2 NFTs. Holders earn artifacts as rewards from staking.",
+      "*EVM NFT staking platform* where users mint GEN111/GEN2 NFTs. Holders earn artifacts as rewards from staking.",
     image: "/images/projects/dizmonkz.jpg",
     liveUrl: "https://digimonkz.com/",
     githubUrl: "https://github.com/2-rust/DigiMonkz-Staking",
@@ -315,7 +315,7 @@ export const projects = [
   {
     title: "Playzelo",
     description:
-      "Deployed on Bitcoin, Ethereum, Binance, and Solana. Includes Scissors, Turtlerace, Mines, Dice, Plinko, Slot, Crash games. Supports native tokens & USDT, USDC for betting.",
+      "Deployed on *Bitcoin, Ethereum, Binance, and Solana*. Includes Scissors, Turtlerace, Mines, Dice, Plinko, Slot, Crash games. Supports native tokens & USDT, USDC for betting.",
     image: "/images/projects/playzelo.png",
     liveUrl: "https://playzelo.xyz/",
     githubUrl: "https://github.com/2-rust/scissors/tree/master/backend",
@@ -324,7 +324,7 @@ export const projects = [
   {
     title: "Seek Syndicate",
     description:
-      "P2E Game with SPL token rewards. Built Smart Contracts using Anchor (Rust) & Next.js for frontend.",
+      "*P2E Game with SPL token rewards*. Built Smart Contracts using Anchor (Rust) & Next.js for frontend.",
     image: "/images/projects/seek.jpg",
     liveUrl: "https://www.seekersyndicate.com/",
     githubUrl: "https://github.com/2-rust/SPLFaucetSmartContract",
@@ -333,7 +333,7 @@ export const projects = [
   {
     title: "Yieldz Lending",
     description:
-      "DeFi Lending Protocol offering real-yield mechanisms for investors. First multi-layered real-yield ecosystem providing stable passive income.",
+      "*DeFi Lending Protocol* offering real-yield mechanisms for investors. First multi-layered real-yield ecosystem providing stable passive income.",
     image: "/images/projects/yy.png",
     liveUrl: "https://yieldzprotocol.com/",
     githubUrl: "https://github.com/2-rust/360-Defi-SmartContract",
@@ -342,7 +342,7 @@ export const projects = [
   {
     title: "Nyx Cipher",
     description:
-      "Developing AI-driven blockchain agents to automate financial and social intelligence on Ethereum(Base) & Solana. Integrating smart contracts with AI processing to optimize blockchain interactions. Cut research time 90%, amplify productivity by 10x. Power smarter investment decisions..",
+      "Developing AI-driven blockchain *agents to automate financial and social intelligence on Ethereum(Base) & Solana*. Integrating smart contracts with AI processing to optimize blockchain interactions. Cut research time 90%, amplify productivity by 10x. Power smarter investment decisions..",
     image: "/images/projects/nyx.png",
     liveUrl: "https://nyxcipher.ai/",
     githubUrl: "https://github.com/2-rust/Nyx-Cipher-Agent",
@@ -351,7 +351,7 @@ export const projects = [
   {
     title: "Free Games Hub",
     description:
-      "A treasure trove of free PC games and browser-based delights. Discover thrilling titles ready for download and instant play.",
+      "A treasure trove of free *PC games and browser-based delights*. Discover thrilling titles ready for download and instant play.",
     image: "/images/projects/free-games-hub.webp",
     liveUrl: "https://www.freegameshub.xyz",
     githubUrl: "https://github.com/2-rust/FreeGamesHub",
@@ -431,9 +431,9 @@ export const testimonials = [
   },
   {
     name: "Periwinkle",
-    company: "CTO",
+    company: "glittrfi",
     linkedIn: "",
-    position: "glittrfi",
+    position: "CTO",
     avatar: "/images/testimonials/Periwinkle.png",
     testimonial:
       "Dillon is a hardworking, driven and dedicated person. He will be an asset wherever he goes.",

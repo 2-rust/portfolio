@@ -4,6 +4,49 @@ import { workExperience } from "@/config/data"
 import { motion } from "framer-motion"
 import { FiBriefcase } from "react-icons/fi"
 
+/**
+ * Replace *text* tokens with <span style={{color}}>text</span> nodes.
+ * @param input raw string that may contain *asterisk* tokens
+ * @param color CSS color string (e.g. "#7C3AED" or "deepskyblue")
+ * @returns array of React nodes (safe to render)
+ */
+export function highlightAsterisksAsColor(input: string, color = "#e2499dff"): React.ReactNode[] {
+  // Regex: non-greedy match between asterisks, avoids matching across line breaks by default
+  const re = /\*(.+?)\*/g;
+  const nodes: React.ReactNode[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = re.exec(input)) !== null) {
+    const [full, inner] = match;
+    const idx = match.index;
+
+    // push text before match
+    if (idx > lastIndex) {
+      nodes.push(input.slice(lastIndex, idx));
+    }
+
+    // push colored span with escaped text
+    nodes.push(
+      <span key={idx} style={{ color, whiteSpace: "pre-wrap" }}>
+        {inner}
+      </span>
+    );
+
+    lastIndex = idx + full.length;
+  }
+
+  // push remaining text
+  if (lastIndex < input.length) {
+    nodes.push(input.slice(lastIndex));
+  }
+
+  // if no matches, return the original string (as single node)
+  if (nodes.length === 0) return [input];
+
+  return nodes;
+}
+
 export function WorkExperience() {
   return (
     <div className="mb-16">
@@ -74,7 +117,7 @@ export function WorkExperience() {
                     viewport={{ once: true }}
                     className="w-2 h-2 bg-cyan-400 rounded-full mt-3 flex-shrink-0"
                   />
-                  <span>{item}</span>
+                  <span>{highlightAsterisksAsColor(item)}</span>
                 </motion.li>
               ))}
             </ul>

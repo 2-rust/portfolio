@@ -4,6 +4,7 @@ import { projects } from "@/config/data";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { FiCode, FiExternalLink, FiGithub } from "react-icons/fi";
+import {highlightAsterisksAsColor} from "./WorkExperience"
 
 export function Projects() {
   return (
@@ -86,7 +87,7 @@ export function Projects() {
                   })}
                 </div>
               <p className="text-gray-300 mb-4 leading-relaxed line-clamp-3">
-                {project.description}
+                {highlightAsterisksAsColor(project.description)}
               </p>
 
               <div className="flex items-center justify-between gap-4">
