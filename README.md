@@ -52,7 +52,7 @@ Visit [http://localhost:3000](http://localhost:3000) to view your portfolio.
 
 ## 🌐 Live Demo
 
-Check out the live site: [2rust.dev](https://www.2rust.dev)
+Check out the live site: [https://fnine.dev/](https://fnine.dev)
 
 ## 📄 License
 
@@ -69,7 +69,7 @@ Open an issue or submit a pull request to improve the portfolio.
 ## 📫 Contact
 
 - **Gmail:** dillonking130@gmail.com
-- **Website:** [2rust.dev](https://www.2rust.dev)
+- **Website:** [fnine.dev](https://www.fnine.dev)
 - **GitHub:** [Rust Developer](https://github.com/2-rust)
 
 ---
