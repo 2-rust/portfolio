@@ -27,24 +27,24 @@ import {
 } from "react-icons/si";
 
 export const socialLinks = [
-  {
-    id: 5,
-    priority: 1,
-    title: "GitHub",
-    url: "https://github.com/2-rust",
-  },
-  {
-    id: 6,
-    priority: 2,
-    title: "Twitter",
-    url: "https://twitter.com/t_rustdev_",
-  },
-  {
-    id: 7,
-    priority: 3,
-    title: "Telegram",
-    url: "https://t.me/rust_devv",
-  },
+  // {
+  //   id: 5,
+  //   priority: 1,
+  //   title: "GitHub",
+  //   url: "https://github.com/2-rust",
+  // },
+  // {
+  //   id: 6,
+  //   priority: 2,
+  //   title: "Twitter",
+  //   url: "https://twitter.com/t_rustdev_",
+  // },
+  // {
+  //   id: 7,
+  //   priority: 3,
+  //   title: "Telegram",
+  //   url: "https://t.me/rust_devv",
+  // },
   // {
   //   id: 8,
   //   priority: 4,
